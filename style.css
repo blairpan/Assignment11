@@ -1,0 +1,55 @@
+#listContainer{
+	display: block;
+	width: 500px;
+	margin: 100px auto 0;
+}
+
+.header {
+  background-color: #3b5998;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    background: #f7f7f7;
+    font-size: 18px;
+    list-style-type: none;
+    border: 2px;
+}
+button{
+  background: none;
+  border: 0px;
+  color: white;
+  font-size: 15px;
+  margin: 10px 0 0;
+  cursor: pointer;
+}
+button:hover {
+  color: black;
+}
+input {
+  margin: 0;
+  font-size: 15px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  color: #888;
+}
+li:hover{
+	background-color: #dfe3ee;
+}
+#footer{
+  text-align: right;
+  background-color: #3b5998;
+  padding: 10px 10px;
+  color: white;
+}
